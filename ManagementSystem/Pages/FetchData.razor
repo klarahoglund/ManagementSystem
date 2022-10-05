@@ -27,7 +27,7 @@ else
             @foreach (var forecast in forecasts)
             {
                 <tr>
-                    <td>@forecast.MachineId</td>
+                    <td>@forecast.Id</td>
                     <td>@forecast.MachineName</td>
                     <td>@forecast.Status</td>
                    
@@ -48,7 +48,7 @@ else
     public class Machine    
     {
         public string MachineName { get; set; } = string.Empty;
-        public int MachineId { get; set; }
+        public Guid Id { get; set; }
         public MachineStatus Status { get; set; }
     }
 }

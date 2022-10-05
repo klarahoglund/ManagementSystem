@@ -2,26 +2,26 @@
   {
     "id": 1,
     "name":"Bettan",
-    "status": "Online"
+    "status": true
   },
   {
-    "date": 2,
+    "id": 2,
     "name": "Kurre",
-    "status": "Online"
+    "status": true
   },
   {
-    "date": 3,
+    "id": 3,
     "name": "Klas",
-    "status": "Online"
+    "status": true
   },
   {
-    "date": 4,
+    "id": 4,
     "name": "Rosa",
-    "status": "Online"
+    "status": true
   },
   {
-    "date": 5,
+    "id": 5,
     "name": "Nisse",
-    "status": "Online"
+    "status": true
   }
 ]

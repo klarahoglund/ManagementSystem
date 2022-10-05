@@ -29,7 +29,7 @@ else
                 <tr>
                     <td>@forecast.Id</td>
                     <td>@forecast.MachineName</td>
-                    <td>@forecast.Status</td>
+                    @*<td>@forecast.Status</td>*@
                    
                 </tr>
             }
@@ -38,17 +38,6 @@ else
 }
 
 @code {
-    private Machine[]? forecasts;
+  
 
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await Http.GetFromJsonAsync<Machine[]>("sample-data/weather.json");
-    }
-
-    public class Machine    
-    {
-        public string MachineName { get; set; } = string.Empty;
-        public Guid Id { get; set; }
-        public MachineStatus Status { get; set; }
-    }
 }

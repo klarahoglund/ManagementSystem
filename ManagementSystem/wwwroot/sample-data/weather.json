@@ -1,27 +1,32 @@
 ﻿[
   {
     "id": 1,
-    "name":"Bettan",
-    "status": true
+    "machinename": "Bettan",
+    "status": 0
   },
   {
     "id": 2,
-    "name": "Kurre",
-    "status": true
+    "machinename": "Kurre",
+    "status": 1
   },
+
   {
     "id": 3,
-    "name": "Klas",
-    "status": true
+    "machinename": "Klas",
+    "status": 0
+
   },
   {
     "id": 4,
-    "name": "Rosa",
-    "status": true
+    "machinename": "Rosa",
+    "status": 1
+
   },
   {
     "id": 5,
-    "name": "Nisse",
-    "status": true
+    "machinename": "Nisse",
+    "status": 1
+
   }
 ]
+ 

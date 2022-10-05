@@ -1,5 +1,8 @@
 ﻿using ManagementSystem.Models;
+using System;
 using System.Net.Http.Json;
+
+
 
 namespace ManagementSystem.Pages
 {
@@ -10,7 +13,7 @@ namespace ManagementSystem.Pages
         protected override async Task OnInitializedAsync()
         {
             forecasts = await Http.GetFromJsonAsync<Machine[]>("sample-data/weather.json");
-            Console.WriteLine();
+
         }
     }
 }

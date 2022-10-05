@@ -6,7 +6,7 @@
 
         public string MachineName { get; set; } = string.Empty;
         public int Id { get; set; }
-        //public bool Status { get; set; }
+        public MachineStatus Status { get; set; }
 
     }
 }
